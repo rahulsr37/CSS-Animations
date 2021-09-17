@@ -13,12 +13,13 @@
 .semicircle1{
     display: grid;
     place-items: center;
+    position: relative;
     width: 200px;
     height: 200px;
     box-sizing: border-box;
     border-radius: 50%;
     background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet, red);
-    animation: rotate 2s linear infinite;
+    animation: rotate 2s linear infinite; 
 }
 
 @keyframes rotate {
@@ -33,6 +34,7 @@
 .semicircle2{
     display: grid;
     place-items: center;
+    position: absolute;
     width: 180px;
     height: 180px;
     box-sizing: border-box;
